@@ -1,0 +1,5 @@
+      <Section title=\"About\" theme={theme}>
+        <Row icon=\"document-text-outline\" label=\"Privacy Policy\" theme={theme} onPress={() => Linking.openURL('https://nesdaylive.github.io/pdfmasterai-legal/privacy.html')} testID=\"settings-privacy\" />
+        <Row icon=\"reader-outline\" label=\"Terms of Service\" theme={theme} onPress={() => Linking.openURL('https://nesdaylive.github.io/pdfmasterai-legal/terms.html')} testID=\"settings-terms\" />
+        <Row icon=\"information-circle-outline\" label=\"Version\" theme={theme} value=\"1.0.0\" testID=\"settings-version\" />
+      </Section>
